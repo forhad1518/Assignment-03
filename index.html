@@ -33,9 +33,26 @@
 <body class="font-manrope">
     <header class="bg-gradient-to-b from-gray-100 to-gray-50">
         <!-- nav bar -->
-        <section>
-             <nav>
-
+        <section class="w-4/5 mx-auto">
+             <nav class="flex justify-between items-center mt-5">
+              <div>
+                <h1 class="text-2xl font-bold block"><i class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#ABEF5F] text-black rounded-full mr-2"></i>Rinterio</h1>
+              </div>
+              <div class="max-md:hidden">
+                <ul  class="flex font-bold gap-x-8">
+                  <li>Home</li>
+                  <li class="text-gray-500">Services</li>
+                  <li class="text-gray-500">Portfolio</li>
+                  <li class="text-gray-500">Blogs</li>
+                  <li class="text-gray-500">Contact Us</li>
+                </ul>
+              </div>
+              <div class="flex gap-x-5 items-center">
+                <h4 class="bg-white px-2 py-1 rounded-full max-sm:hidden"><i class="fa-solid fa-magnifying-glass"></i></h4>
+                <h4 class="bg-white px-2 py-1 rounded-full max-sm:hidden"><i class="fa-solid fa-cart-shopping"></i></h4>
+                <button class="bg-[#ABEF5F] px-4 py-2 text-lg font-black border-none rounded-full mx-auto max-sm:hidden">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 p-2 bg-[#1C1C1C] text-white rounded-full ml-2"></i></button>
+                <h1 class="lg:hidden text-xl bg-white px-2 py-1 rounded-full"><i class="fa-solid fa-bars"></i></h1>
+              </div>
              </nav>
         </section>
         <!-- Banner Section -->
@@ -154,7 +171,7 @@
            <!-- text content -->
            <div>
              <div class="text-center">
-               <button class="bg-white px-4 py-2 rounded-full text-xl font-bold"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
+               <button class="bg-[#ABEF5F33] px-4 py-2 rounded-full text-xl font-bold"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
                <br>
                <br>
                <h1 class="text-3xl md:text-4xl lg:text-5xl font-black">Our Latest Portfolio</h1>
@@ -163,40 +180,73 @@
            </div>
            <br>
            <!-- Card Content -->
-           <div class="grid grid-cols-9 gap-5">
-            <div class="p-4 rounded-2xl flex gap-x-5 border-[#E9E9E9] border col-span-6 items-center">
+           <div class="grid lg:grid-cols-9 md:grid-cols-8 gap-5">
+            <div class="p-4 rounded-2xl flex gap-x-5 border-[#E9E9E9] border lg:col-span-6 md:col-span-8 items-center max-sm:flex max-sm:flex-col">
               <div>
                 <img class="w-full" src="assets/img1.png" alt="">
               </div>
-              <div class="w-3/4">
+              <div class="md:w-3/4">
                 <h4 class="text-xl font-bold">Commercial</h4>
                 <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <button class="text-xl font-black border-none border-solid border-2 rounded-full">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-[#ABEF5F] rounded-full mt-3"></i></button>
               </div>
             </div>
-            <div class="p-4 rounded-2xl border-[#E9E9E9] border col-span-3">
+            <div class="p-4 rounded-2xl border-[#E9E9E9] border lg:col-span-3 md:col-span-4">
               <img src="assets/img2.png" alt="">
             </div>
-            <div class="p-4 rounded-2xl border-[#E9E9E9] border col-span-2 content-center">
+            <div class="p-4 rounded-2xl border-[#E9E9E9] border lg:col-span-2 md:col-span-4">
               <img src="assets/img3.png" alt="">
             </div>
-            <div class="p-4 rounded-2xl flex gap-x-5 border-[#E9E9E9] border col-span-5 items-center">
+            <div class="p-4 rounded-2xl flex gap-x-5 max-sm:gap-y-5 border-[#E9E9E9] border lg:col-span-5 md:col-span-8 md:items-center max-sm:flex max-sm:flex-col ">
               <div>
                 <img class="w-full" src="assets/img4.png" alt="">
               </div>
-              <div class="w-1/2">
+              <div class="md:w-1/2">
                 <h4 class="text-xl font-bold">Commercial</h4>
                 <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <button class="text-xl font-black border-none border-solid border-2 rounded-full">View Details <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-[#ABEF5F] rounded-full mt-3"></i></button>
               </div>
             </div>
-            <div class="p-4 rounded-2xl border-[#E9E9E9] border col-span-2 content-center">
+            <div class="p-4 rounded-2xl border-[#E9E9E9] border lg:col-span-2 md:col-span-4 content-center">
               <img class="content-center" src="assets/img5.png" alt="">
             </div>
+            <div class="p-4 rounded-2xl border-[#E9E9E9] border lg:hidden md:visible max-sm:hidden lg:col-span-2 md:col-span-4 content-center">
+              <img class="content-center" src="assets/img5.png" alt="">
+            </div>
+            <br>
+            <br>
            </div>
          </section>
+         <!-- Let's Connect -->
+          <section class="bg-[url('assets/bg.jpg')]">
+            <br>
+            <br>
+            <div class="w-4/5 mx-auto">
+              <!-- text content -->
+             <div class="text-center">
+              <button class="bg-[#bff77f] px-4 py-2 rounded-full text-xl font-bold"><i class="fa-solid fa-arrow-right"></i> How we works</button>
+              <br>
+              <br>
+              <h1 class="text-3xl font-black">Read Our Articles and News</h1>
+              <br>
+              <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <br>
+             <!-- input content -->
+              <div class="grid gap-5 grid-cols-2 ">
+                <input class="p-5 rounded-full block max-sm:col-span-2" type="text" placeholder="First Name*">
+                <input class="p-5 rounded-full block max-sm:col-span-2" type="text" placeholder="Last Name*">
+                <input class="p-5 rounded-full block max-sm:col-span-2" type="number" name="" id="" placeholder="Phone Number*">
+                <input class="p-5 rounded-full block max-sm:col-span-2" type="email" name="" id="" placeholder="Email Number*">
+                <input class="p-5 rounded-3xl block h-32 col-span-2 align-text-top" type="text" name="" id="" placeholder="Write your message here">
+              </div>
+            </div>
+            <br>
+            <br>
+          </section>
     </main>
-    <footer>
+    <br>
+    <footer class="bg-[#1C1C1C]">
 
     </footer>
 </body>
